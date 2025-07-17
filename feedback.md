@@ -1,7 +1,7 @@
 # 🎯 **FEEDBACK DÉTAILLÉ - INTRODUCTION À CSS**
 
 **Exercice :** exercice-introduction-css-muksmagic
-**Date d'analyse :** 17/07/2025 à 07:27
+**Date d'analyse :** 17/07/2025 à 07:52
 **Analysé par :** Coach Web Design - Validation Pédagogique
 
 ---
@@ -23,6 +23,12 @@
 **💡 Solution:** Ajoutez `;` à la fin
 
 ### 📄 **Analyse détaillée de `./style.css`**
+
+❌ **Ligne 90:** Point-virgule manquant
+```css
+    max-width: 500px
+```
+**💡 Solution:** Ajoutez `;` à la fin
 
 ### � **Vérification des styles inline dans le HTML**
 
@@ -92,5 +98,5 @@
 
 ---
 
-🎓 **Feedback généré automatiquement le 17/07/2025 à 07:27**
+🎓 **Feedback généré automatiquement le 17/07/2025 à 07:52**
 📧 **Questions ?** Contactez votre formateur pour des explications détaillées.
