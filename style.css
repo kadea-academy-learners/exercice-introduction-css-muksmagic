@@ -1,3 +1,113 @@
+/* styles.css */
+* {
+    text-align: center;
+    background-color: white;
+}
 
+.body-page {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
 
+.header-page{
+    background-color: gray;
+
+}
+.title {
+    background: gray;
+}
+
+.paragraph {
+    margin-left: 650px;
+    background-color: gray;
+}
+
+.class-main-page {
+    margin: 20px auto;
+    background-color: gray;
+}
+
+.figure-page {
+    margin: 0;
+    background-color: white;
+}
+
+.figure img{
+    max-width: 900px;
+}
+
+.figcaption-caption{
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+section{
+    background-color: gray;
+}
+
+h2{
+    font-size: 1.3em;
+    background-color: gray;
+    margin: 50px;
+}
+
+.ul-timeline {
+    max-width: 550px;
+    margin-left: 420px;
+    background-color: gray;
+}
+
+ul li{
+    text-align: left;
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+ul li strong{
+    background-color: gray;
+}
+
+p{
+    text-align:left;
+    max-width: 500px;
+    margin-left: 450px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+
+.blockquote-qoute {
+    background-color: gray;
+    margin-right: 380px;
+}
+
+blockquote em{
+    font-style: normal;
+    background-color: gray;
+    margin-left: 50px;
+    max-width: 500px
+}
+
+.footer-page {
+    background-color: gray;
+}
+
+footer a{
+    color: purple;
+    text-decoration: none;
+    background-color: gray;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+h3{
+    background-color: gray;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px;
+}
 
