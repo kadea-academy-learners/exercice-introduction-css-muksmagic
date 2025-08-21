@@ -1,113 +1,91 @@
-/* styles.css */
-* {
-    text-align: center;
-    background-color: white;
+/*Body part of the page*/
+body {
+  background-color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 5px 20px 5px;
 }
 
-.body-page {
-    background-color: gray;
-    font-family: Arial, sans-serif;
-    padding: 10px;
-    border-radius: 5px;
+/* Header part of the page including the header*/
+.header {
+  background-color: gainsboro;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
 }
 
-.header-page{
-    background-color: gray;
-
-}
-.title {
-    background: gray;
+/* The important part including the hand */
+main {
+  padding: 10px;
+  background-color: gainsboro;
 }
 
-.paragraph {
-    margin-left: 650px;
-    background-color: gray;
+figure {
+  margin: 0;
+  background-color: white;
+  padding: 10px;
 }
 
-.class-main-page {
-    margin: 20px auto;
-    background-color: gray;
+figure img {
+  max-width: 900px;
+  margin-top: 10px;
 }
 
-.figure-page {
-    margin: 0;
-    background-color: white;
+figcaption {
+  font-size: 0.9em;
+  margin-top: 10px;
 }
 
-.figure img{
-    max-width: 900px;
+/* Stylized the section */
+section {
+  padding: 6px;
+  margin-top: 10px;
 }
 
-.figcaption-caption{
-    font-size: 0.8em;
-    padding: 10px;
+h3 {
+  font-size: 1.3em;
+  margin: 30px;
+  margin-bottom: 50px;
 }
 
-section{
-    background-color: gray;
+.middle-zone {
+  max-width: 500px;
+  margin: auto;
 }
 
-h2{
-    font-size: 1.3em;
-    background-color: gray;
-    margin: 50px;
+.middle-zone li {
+  text-align: left;
+  margin-bottom: 15px;
 }
 
-.ul-timeline {
-    max-width: 550px;
-    margin-left: 420px;
-    background-color: gray;
+.slogan {
+  text-align: left;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-style: italic;
 }
 
-ul li{
-    text-align: left;
-    background-color: grey;
-    margin-bottom: 15px;
+.paraphrase {
+  margin-right: 14rem;
 }
 
-ul li strong{
-    background-color: gray;
+em {
+  margin-left: 20px;
 }
 
-p{
-    text-align:left;
-    max-width: 500px;
-    margin-left: 450px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    background-color: gray;
+/* The foot of the page */
+footer {
+  background-color: gainsboro;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
 }
 
-.blockquote-qoute {
-    background-color: gray;
-    margin-right: 380px;
+footer a {
+  color: blue;
+  text-decoration: none;
 }
 
-blockquote em{
-    font-style: normal;
-    background-color: gray;
-    margin-left: 50px;
-    max-width: 500px
+footer a:hover {
+  text-decoration: underline;
 }
-
-.footer-page {
-    background-color: gray;
-}
-
-footer a{
-    color: purple;
-    text-decoration: none;
-    background-color: gray;
-}
-
-footer a:hover{
-    text-decoration: underline;
-}
-
-h3{
-    background-color: gray;
-    text-align: center;
-    font-size: 25px;
-    margin: 50px;
-}
-
